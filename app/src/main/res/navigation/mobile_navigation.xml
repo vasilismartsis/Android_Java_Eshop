@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.eshop5.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.eshop5.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_showData"
+        android:name="com.example.eshop5.ui.showData.ShowDataFragment"
+        android:label="Show Data"
+        tools:layout="@layout/fragment_show_data" />
+    <fragment
+        android:id="@+id/nav_shop"
+        android:name="com.example.eshop5.ui.shop.ShopFragment"
+        android:label="@string/menu_shop"
+        tools:layout="@layout/fragment_shop" />
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.eshop5.ui.cart.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/nav_addItem"
+        android:name="com.example.eshop5.ui.addItem.AddItemFragment"
+        android:label="@string/menu_addItem"
+        tools:layout="@layout/fragment_add_item" />
+</navigation>
