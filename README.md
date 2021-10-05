@@ -57,7 +57,7 @@ Adds a product to the Products panel
 
 3. Build.grandle:
 
-2 changes had to be made to this file:
+Two changes had to be made to this file:
 1. def room_version = "2.2.5"
 implementation "androidx.room:room-runtime:$room_version"
 annotationProcessor "androidx.room:room-compiler:$room_version"
